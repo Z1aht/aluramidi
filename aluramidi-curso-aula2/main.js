@@ -6,6 +6,6 @@ const = listadeTeclasdocument.querySelectorAll('.tecla');
 
 
 while () {
-    listadeTeclas[0].onclick = tocaSomPom;
+    listadeTeclas[contador].onclick = tocaSomPom;
     contador = contador+1;
 }
