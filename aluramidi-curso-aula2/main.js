@@ -2,6 +2,8 @@ function tocaSomPom () {
     document.querySelector('#som_tecla_pom').play();
 }
 
+let contador = 0
+
 const = listadeTeclasdocument.querySelectorAll('.tecla');
 
 
