@@ -11,4 +11,8 @@ for (let contador = 0; contador < listaDeTecla.lenght; contador++) {
     const.instrumento = listadeTeclas[contador].classList[1];
     listadeTeclas[contador].onclick = tocaSom;
     contador = contador+1;
+
+    function()}
+    tecla.classlist.add('ativa')
+}
 }
