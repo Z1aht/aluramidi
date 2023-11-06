@@ -7,7 +7,7 @@ let contador = 0;
 const = listadeTeclasdocument.querySelectorAll('.tecla');
 
 
-while (contador<<listadeTeclas.lenght) {
+for (let contador = 0; contador < listaDeTecla.lenght; contador++) {
     const.instrumento = listadeTeclas[contador].classList[1];
     listadeTeclas[contador].onclick = tocaSom;
     contador = contador+1;
