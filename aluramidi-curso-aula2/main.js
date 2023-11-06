@@ -12,8 +12,10 @@ for (let contador = 0; contador < listaDeTecla.lenght; contador++) {
     listadeTeclas[contador].onclick = tocaSom;
     contador = contador+1;
 
-    tecla.onKeydown=function(){
+    tecla.onKeydown = function(){
     tecla.classlist.add('ativa')
 }
-
+tecla.onkeyup(){
+    tecla.classlist.remove('ativa')
+}
 }
